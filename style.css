@@ -1,0 +1,149 @@
+.accordion img {
+    height: 200px;
+    width: 60%;
+    object-fit: contain;
+    margin: -12px -5px;
+}
+
+.accordion {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 60px;
+    width: 100%;
+    padding-right: 25px;
+}
+
+.flex {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    margin: 5px 0px;
+    width: 112%;
+    height: 92%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-header {
+    width: 100%;
+    border-bottom: none !important;
+}
+
+.heading {
+    margin-bottom: 12px;
+}
+
+.stats {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.stat-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-cont-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    padding-top: 12px;
+}
+
+.stat {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.stat-cont h5,
+.stat-cont-2 h5 {
+    opacity: 0.6;
+    font-size: 0.95em;
+}
+
+.stat-cont h3,
+.stat-cont-2 h3 {
+    font-size: 1.95em;
+}
+
+.inner-conatiners {
+    display: flex;
+}
+
+.crypto {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 10px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.crypto:hover {
+    transform: scale(1.02);
+}
+
+.header {
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.header img {
+    height: 45px;
+    width: 60px;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+.crypto h4 {
+    font-size: 0.98em;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    padding: 10px 50px;
+}
+
+.top-cryptos {
+    margin-bottom: 15px;
+}
+
+.last {
+    width: 22.6%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 80px;
+    background: #2d2c3c;
+    align-items: center;
+    color: white;
+    font-size: 1.98em;
+}
+
+nav img {
+    height: 80px;
+    object-fit: contain;
+    margin-left: 30px;
+}
